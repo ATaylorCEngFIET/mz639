@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="bufr_demo_tb_sim.wdb" id="1">
+         <top_modules>
+            <top_module name="bufr_demo_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2500.001 ns"></ZoomEndTime>
+      <Coverage>1</Coverage>
+   </zoom_setting>
+   <cursor_setting>
+      <Cursor time="0.000 ns"></Cursor>
+   </cursor_setting>
+   <wvobject type="divider" fp_name="divider">
+      <obj_property name="label">Clock &amp; Reset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_clk_100mhz" type="logic">
+      <obj_property name="ElementShortName">s_clk_100mhz</obj_property>
+      <obj_property name="ObjectShortName">s_clk_100mhz</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">Input Clock (100 MHz)</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_rst_n" type="logic">
+      <obj_property name="ElementShortName">s_rst_n</obj_property>
+      <obj_property name="ObjectShortName">s_rst_n</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">Reset (Active Low)</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider">
+      <obj_property name="label">BUFR Divided Clock Outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_clk_bypass" type="logic">
+      <obj_property name="ElementShortName">s_clk_bypass</obj_property>
+      <obj_property name="ObjectShortName">s_clk_bypass</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">BYPASS (100 MHz)</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_clk_div1" type="logic">
+      <obj_property name="ElementShortName">s_clk_div1</obj_property>
+      <obj_property name="ObjectShortName">s_clk_div1</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">DIV1 (100 MHz)</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_clk_div2" type="logic">
+      <obj_property name="ElementShortName">s_clk_div2</obj_property>
+      <obj_property name="ObjectShortName">s_clk_div2</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">DIV2 (50 MHz)</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_clk_div3" type="logic">
+      <obj_property name="ElementShortName">s_clk_div3</obj_property>
+      <obj_property name="ObjectShortName">s_clk_div3</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">DIV3 (33.3 MHz)</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_clk_div4" type="logic">
+      <obj_property name="ElementShortName">s_clk_div4</obj_property>
+      <obj_property name="ObjectShortName">s_clk_div4</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">DIV4 (25 MHz)</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_clk_div5" type="logic">
+      <obj_property name="ElementShortName">s_clk_div5</obj_property>
+      <obj_property name="ObjectShortName">s_clk_div5</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">DIV5 (20 MHz)</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_clk_div6" type="logic">
+      <obj_property name="ElementShortName">s_clk_div6</obj_property>
+      <obj_property name="ObjectShortName">s_clk_div6</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">DIV6 (16.7 MHz)</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_clk_div7" type="logic">
+      <obj_property name="ElementShortName">s_clk_div7</obj_property>
+      <obj_property name="ObjectShortName">s_clk_div7</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">DIV7 (14.3 MHz)</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_clk_div8" type="logic">
+      <obj_property name="ElementShortName">s_clk_div8</obj_property>
+      <obj_property name="ObjectShortName">s_clk_div8</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">DIV8 (12.5 MHz)</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider">
+      <obj_property name="label">Edge Counters</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_cnt_bypass" type="other">
+      <obj_property name="ElementShortName">s_cnt_bypass</obj_property>
+      <obj_property name="ObjectShortName">s_cnt_bypass</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">Count BYPASS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_cnt_div2" type="other">
+      <obj_property name="ElementShortName">s_cnt_div2</obj_property>
+      <obj_property name="ObjectShortName">s_cnt_div2</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">Count DIV2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_cnt_div4" type="other">
+      <obj_property name="ElementShortName">s_cnt_div4</obj_property>
+      <obj_property name="ObjectShortName">s_cnt_div4</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">Count DIV4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bufr_demo_tb/s_cnt_div8" type="other">
+      <obj_property name="ElementShortName">s_cnt_div8</obj_property>
+      <obj_property name="ObjectShortName">s_cnt_div8</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="label">Count DIV8</obj_property>
+   </wvobject>
+</wave_config>

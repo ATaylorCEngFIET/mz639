@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# xsim v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sun Mar  1 21:18:46 2026
+# Process ID         : 30828
+# Current directory  : C:/hdl_projects/mz639/sim
+# Command line       : xsim.exe -log simulation.log -mode tcl -source {xsim.dir/bufr_demo_tb_sim/xsim_script.tcl}
+# Log file           : C:/hdl_projects/mz639/sim/simulation.log
+# Journal file       : C:/hdl_projects/mz639/sim\xsim.jou
+# Running On         : Adiuvo_Adam
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) Ultra 9 285H
+# CPU Frequency      : 3686 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 16
+# Host memory        : 33777 MB
+# Swap memory        : 26843 MB
+# Total Virtual      : 60621 MB
+# Available Virtual  : 14289 MB
+#-----------------------------------------------------------
+source xsim.dir/bufr_demo_tb_sim/xsim_script.tcl
+# xsim {bufr_demo_tb_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Note: ==========================================
+Time: 150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note: BUFR Division Demonstration Testbench
+Time: 150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note: Input Clock: 100 MHz (10 ns period)
+Time: 150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note: ==========================================
+Time: 150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note: ==========================================
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note: Simulation Results (Rising Edge Counts):
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note:   BYPASS : 205 edges (expected ~200)
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note:   DIV1   : 205 edges (expected ~200)
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note:   DIV2   : 103 edges (expected ~100)
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note:   DIV3   : 69 edges (expected ~66)
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note:   DIV4   : 52 edges (expected ~50)
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note:   DIV5   : 41 edges (expected ~40)
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note:   DIV6   : 35 edges (expected ~33)
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note:   DIV7   : 30 edges (expected ~28)
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note:   DIV8   : 26 edges (expected ~25)
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note: ==========================================
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+Note: Simulation Complete
+Time: 2150 ns  Iteration: 0  Process: /bufr_demo_tb/stim_proc  File: C:/hdl_projects/mz639/test/bufr_demo_tb_entity.vhd
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Mar  1 21:18:48 2026...

@@ -1,0 +1,30 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --debug typical --mt auto -L unisims_ver work.bufr_demo_tb -s bufr_demo_tb_sim 
+Multi-threading is on. Using 14 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR(1,6)(1,7)\]
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR(bufr_divide="1")(1,1)(1,7)...]
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR(bufr_divide="2")(1,1)(1,7)...]
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR(bufr_divide="3")(1,1)(1,7)...]
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR(bufr_divide="4")(1,1)(1,7)...]
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR(bufr_divide="5")(1,1)(1,7)...]
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR(bufr_divide="6")(1,1)(1,7)...]
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR(bufr_divide="7")(1,1)(1,7)...]
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR(bufr_divide="8")(1,1)(1,7)...]
+Compiling architecture rtl of entity work.bufr_demo [\bufr_demo(g_sim_mode=true)\]
+Compiling architecture bench of entity work.bufr_demo_tb
+Built simulation snapshot bufr_demo_tb_sim
